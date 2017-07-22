@@ -1,0 +1,1 @@
+webpackJsonp([0],[function(n,e){},function(n,e,t){"use strict";t(0),document.getElementById("app").innerHTML="<h2>Hello World!</h2>"}],[1]);

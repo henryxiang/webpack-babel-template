@@ -1,9 +1,9 @@
 ## JavaScript Project Template
 
 ### Features
-* ES6
-* Webpack
 * Babel
+* Nconf 
+* Webpack
 * Webpack-dev-server
 * CSS/Sass loader
 * Browser live-reload
