@@ -1,3 +1,4 @@
+const path = require('path');
 const webpackConfig = require('./config/webpack');
 
 const config = {
@@ -5,7 +6,7 @@ const config = {
     app: './src/app.js',
   },
   output: {
-    path: __dirname + '/build',
+    path: path.join(__dirname, 'build'),
     filename: '[name].js'
   },
   resolve: {
