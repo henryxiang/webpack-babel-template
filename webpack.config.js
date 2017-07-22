@@ -19,15 +19,7 @@ const config = {
 
 const doConfig = (env) => {
   if (env.dev) {
-    config.devtool = 'eval-source-map';
-    config.devServer = {
-      contentBase: __dirname + '/build',
-      port: 8000,
-      open: true,
-      openPage: '',
-      compress: true,
-      stats: 'errors-only'
-    };
+    require('./config/webpack/dev')(config);
   }
   return config;
 };

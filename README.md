@@ -4,8 +4,9 @@
 * ES6
 * Webpack
 * Babel
-* Live-reload
 * Webpack-dev-server
+* CSS/Sass loader
+* Browser live-reload
 
 ### Getting started
 ```bash
