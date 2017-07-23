@@ -1,7 +1,7 @@
 {
-  "name": "webpack-jquery",
+  "name": "webpack-babel-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScript project template with Webpack 2 and Babel 6",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p --progress --env.prod",
@@ -10,7 +10,10 @@
     "start": "npm-run-parallel dev:server"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Henry Xiang",
+    "email": "henryxiang@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.24.0",
